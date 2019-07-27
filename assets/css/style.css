@@ -11,18 +11,20 @@ h1 {
 nav, footer {
   background-color: var(--fondo);
 }
-
-header {
+#sobremi {
   background-image: url('../img/bg-hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding-bottom: 25rem;
 }
+.presentacion{
+  padding-top: 25rem;
+}
 .trabajos{
   text-align: center;
   background-color: var(--fondo);
 }
-.hamburgesa{
-  color: white;
+#sobremi, #experiencia, #trabajos, #contacto{
+  padding-top: 40px;
 }
